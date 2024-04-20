@@ -1,0 +1,86 @@
+{
+  "best_metric": 0.39583274722099304,
+  "best_model_checkpoint": "./data/dair-ai/models/checkpoint-4000",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 4000,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.12,
+      "grad_norm": 16.32712745666504,
+      "learning_rate": 1.95e-05,
+      "loss": 0.5581,
+      "step": 500
+    },
+    {
+      "epoch": 0.25,
+      "grad_norm": 0.46766579151153564,
+      "learning_rate": 1.9e-05,
+      "loss": 0.5647,
+      "step": 1000
+    },
+    {
+      "epoch": 0.38,
+      "grad_norm": 31.287105560302734,
+      "learning_rate": 1.8500000000000002e-05,
+      "loss": 0.5652,
+      "step": 1500
+    },
+    {
+      "epoch": 0.5,
+      "grad_norm": 20.051237106323242,
+      "learning_rate": 1.8e-05,
+      "loss": 0.5579,
+      "step": 2000
+    },
+    {
+      "epoch": 0.62,
+      "grad_norm": 13.112052917480469,
+      "learning_rate": 1.7500000000000002e-05,
+      "loss": 0.5086,
+      "step": 2500
+    },
+    {
+      "epoch": 0.75,
+      "grad_norm": 46.16505432128906,
+      "learning_rate": 1.7e-05,
+      "loss": 0.4989,
+      "step": 3000
+    },
+    {
+      "epoch": 0.88,
+      "grad_norm": 5.929090976715088,
+      "learning_rate": 1.65e-05,
+      "loss": 0.5326,
+      "step": 3500
+    },
+    {
+      "epoch": 1.0,
+      "grad_norm": 44.384864807128906,
+      "learning_rate": 1.6000000000000003e-05,
+      "loss": 0.5156,
+      "step": 4000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.896,
+      "eval_loss": 0.39583274722099304,
+      "eval_runtime": 23.7432,
+      "eval_samples_per_second": 84.235,
+      "eval_steps_per_second": 21.059,
+      "step": 4000
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 20000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "total_flos": 2110417714446336.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
